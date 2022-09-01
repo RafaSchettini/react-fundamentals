@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Rafael\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @babel/core @babel/preset-env @babel-cli -D
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\MinGW\bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\UNIVALI\Portugol Studio;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.322-2\bin;C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.322-2\jre\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\Rafael\.cargo\bin;C:\Ruby31-x64\bin;C:\MinGW\bin;C:\Users\Rafael\AppData\Local\Microsoft\WindowsApps;C:\Users\Rafael\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rafael\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\Users\Rafael\AppData\Local\GitHubDesktop\bin;C:\Users\Rafael\.dotnet\tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel-cli: Request "https://registry.yarnpkg.com/@babel-cli" returned a 405
+      at Request.params.callback [as _callback] (C:\Users\Rafael\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66154:18)
+      at Request.self.callback (C:\Users\Rafael\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Users\Rafael\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (C:\Users\Rafael\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "react-fundamentals",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
